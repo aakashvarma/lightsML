@@ -1,0 +1,12 @@
+source 'https://rubygems.org'
+
+#gem 'wemote'
+#gem 'log_switch', '~> 0.4.0'
+#gem 'playful'
+
+gem 'wemo', git: 'https://github.com/jordanbyron/wemo.git'
+
+gem 'openweathermap'
+
+# give wemote a good HTTP library
+gem 'typhoeus'
